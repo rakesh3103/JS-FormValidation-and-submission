@@ -1,0 +1,17 @@
+
+<html>
+    <head>
+        <title>Form Validation and Submission</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+<h2>Add a User:</h2>
+<form id="add-user" method="post">
+  <input type="text" id="name" name="username" placeholder="name" />
+  <input type="email" id="email" name="email" placeholder="email" />
+  <button type="button" id="btn">add user</button>
+</form>
+<div id="errors"></div>
+<h2>Users:</h2>
+<ul id="users"></ul>
+<script src="controller.js"></script>
+</html>
